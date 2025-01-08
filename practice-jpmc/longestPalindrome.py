@@ -18,6 +18,7 @@ def longestPalindrome(s: str) -> str:
             longest = pali1
         if len(pali2) > len(longest):
             longest = pali2
+    
     return longest
     
 # Test cases
